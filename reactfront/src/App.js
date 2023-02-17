@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 
 const App = () =>{
+  //숫자 인풋, 저장 하는 코드
   const [text, setText] = useState("11");
   const [edit, setEdit] = useState(false);
 
